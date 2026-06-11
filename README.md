@@ -10,10 +10,10 @@ Verification of the core software installation and model acquisition.
 - **Ollama**: Engine installed and version confirmed.
 - **Qwen Model**: `qwen3:4b` successfully pulled and listed.
 
-![Installation Verification](task-1.png)
+![Installation Verification](task1.png)
 *Figure 1: Successful installation of ollama.*
 
-![Installation Verification](task-2.png)
+![Installation Verification](task2.png)
 *Figure 2: Successful installation of Claude Code.*
 ---
 
@@ -23,7 +23,7 @@ Confirmation that the **Qwen3:4b** model was successfully downloaded and is avai
 - **Command**: `ollama list`
 - **Status**: Model `qwen3:4b` verified in the local library.
 
-![Model Verification](task-3.1.png)
+![Model Verification](task3.1.png)
 *Figure 2: Terminal output confirming the presence of the qwen3:4b model.*
 
 ---   
@@ -33,7 +33,7 @@ Interactive terminal session running the Qwen3:4b model to answer a conceptual q
 - **Query**: "What is Machine Learning?"
 - **Result**: Model successfully generated a definition locally.
 
-![Model Execution](task-3.1.png)
+![Model Execution](task3.1.png)
 *Figure 3: Terminal output showing the model responding to the Machine Learning query.*
 
 ---
@@ -44,7 +44,7 @@ Custom Python script (`app.py`) utilizing the Ollama API to send prompts and rec
 - **Query**: "What is the full form of AI?"
 - **Result**: Script successfully captured user input and printed the model's JSON response.
 
-![Python Integration](task-4-python-code.png)
+![Python Integration](task4_python.png)
 *Figure 4: Execution of `app.py` showing user input and the generated AI response.*
 
 ---
